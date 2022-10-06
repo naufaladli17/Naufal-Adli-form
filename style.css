@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.body{
+    padding: 200px;
+    margin: 200px;
+    text-align: center;
+}
+
+.sosmed
+{
+    position: absolute;
+    top: 50%;
+    transform: transformY(-50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+.tombol
+{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-sizing: 0 5px 15px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: #2980b9;
+
+}
+
+.tombol : :hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+
+}
+
+.tombol::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -110px;
+
+}
+
+
+.navbar{
+    width: 1200%;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.logo
+{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.homepage
+{
+    width: 160px;
+    height: auto;
+    background: skyblue;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.top
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper
+{
+    width : 1100px;
+    margin: auto;
+    position:relative;
+
+}
+
+.logo
+{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+.menu
+{
+    float: right;
+
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: auto;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: aliceblue;
+
+
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li
+{
+    float: left;
+
+}
+
+nav ul li a
+{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
